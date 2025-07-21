@@ -1,0 +1,14 @@
+{
+    "title": "Timeout-based Actor",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "timeout": {
+            "title": "Timeout duration",
+            "type": "integer",
+            "description": "The duration in seconds for the Actor to run.",
+            "prefill": 30
+        }
+    },
+    "required": ["timeout"]
+}

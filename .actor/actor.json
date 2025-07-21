@@ -1,0 +1,12 @@
+{
+	"actorSpecification": 1,
+	"name": "actor-test-timeout",
+	"title": "Timeout-based Actor",
+	"description": "Run an Actor for a specified timeout duration.",
+	"version": "0.1",
+	"meta": {
+		"templateId": "js-start"
+	},
+	"input": "./input_schema.json",
+	"dockerfile": "../Dockerfile"
+}
